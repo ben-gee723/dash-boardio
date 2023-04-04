@@ -1,12 +1,11 @@
-import LinkButton from "../../components/LinkButton"
+import LinkButtons from "../../components/LinkButtons"
 export default function Home (){
     return (
-        <>
-            <h1>All Apps</h1>
-            <div>
-                Apps will go here
-                <LinkButton/>
+        <div className="home">
+            <h1>All App Links</h1>
+            <div className="apps-container">
+                <LinkButtons/>
             </div>
-        </>
+        </div>
     )
 }

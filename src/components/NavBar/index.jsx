@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom"
+// spaced between
+// main <---> Home <---> categories
+
 export default function NavBar () {
     return (
         <nav className="nav-bar">

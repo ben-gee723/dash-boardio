@@ -6,6 +6,7 @@
  - Bundler: Vite
  - Library: React
  - Styling: SCSS
+ - ?Context: @ben-gee723/use-context-hook
 
 Other:
  - Icons: Fontawesome

@@ -2,11 +2,53 @@
     "dashboard-links": {},
     "links": [
         {
-            "name": "",
-            "technology": "",
-            "use": "",
-            "link": "",
-            "icon": ""
+            "name": "Google Drive",
+            "technology": "Google Drive",
+            "use": "organisation",
+            "link": "https://drive.google.com/drive/u/1/",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1147px-Google_Drive_icon_%282020%29.svg.png"
+        },
+        {
+            "name": "Leapsome Meetings",
+            "technology": "Leapsome",
+            "use": "organisation",
+            "link": "https://www.leapsome.com/app/#/profile/619e3c48a206d3171b883ca0",
+            "img": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/03e80a90-876f-4b0a-92d5-8d11924a9a78.png?auto=format&q=50&w=80&h=80&fit=max&dpr=3"
+        },
+        {
+            "name": "Confluence - Info",
+            "technology": "Confluence",
+            "use": "organisation",
+            "link": "https://digitalcareerinstitute.atlassian.net/wiki/spaces/CM/overview?homepageId=26477031",
+            "img": "https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png"
+        },
+        {
+            "name": "Jira - Tickets",
+            "technology": "Jira",
+            "use": "Organisation",
+            "link": "https://digitalcareerinstitute.atlassian.net/jira/your-work",
+            "img": "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
+        },
+        {
+            "name": "Miroboard",
+            "technology": "Miro",
+            "use": "Organisation",
+            "link": "https://miro.com/app/board/uXjVPdvERyo=/?userEmail=ben.goldschmidt@digitalcareerinstitute.org&track=true&utm_source=notification&utm_medium=email&utm_campaign=add-to-team-and-board&utm_content=boardName",
+            "img": ""
+        },
+        {
+            "name": "Sheets - Course Plan",
+            "technology": "Google",
+            "use": "planning",
+            "link": "https://docs.google.com/spreadsheets/d/1vV3Tfp4Ssp5cxvQrxTyX_gsfTZh_y1SBbf98iBNTUI0/edit#gid=714766798",
+            "img": ""
+        },
+        {
+            "name": "Atlassian Apps",
+            "technology": "Atlassian",
+            "use": "organisation",
+            "link": "https://start.atlassian.com/",
+            "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/30_Atlassian_logo_logos-512.png"
         }
     ]
 }
