@@ -1,6 +1,10 @@
+// PAGES
+@use '../pages/pages';
+@use '../pages/Home/home';
+
+// COMPONENTS
 @use '../components/Header/header';
 @use '../components/NavBar/navbar';
-@use '../pages/Home/home';
 @use '../components/LinkButtons/LinkButton/index';
 
 * {

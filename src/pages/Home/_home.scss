@@ -1,6 +1,19 @@
-.apps-container{
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.home {
+    
+    .apps-container {
+        height: 100%;
+        width: 100%;
+
+        // Positioning
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        overflow-y: scroll;
+
+        // Hide scrollbar
+        // ::-webkit-scrollbar {
+        //     background: transparent;  /* Optional: just make scrollbar invisible */
+        // }
+    }
 }
