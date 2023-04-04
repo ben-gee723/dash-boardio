@@ -11,7 +11,7 @@ export default function LinkButton ({linkInfo}) {
     
     return(
         <div className="link-button">
-            <a href={link}>
+            <a href={link} target="_blank">
                 <div className='img-container'>
                     <img src={img ? img : qMark} alt={name}></img>
                 </div>
