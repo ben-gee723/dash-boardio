@@ -1,0 +1,56 @@
+.header * {
+    // border: 1px solid red;
+}
+
+.header {
+    margin: 1rem;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    // background-color: red;
+}
+
+.logo {
+    // width: ;
+    height: 70px;
+    // padding: 1.5em;
+
+    display: flex;
+
+    will-change: filter;
+    transition: filter 300ms;
+
+    img {
+        width: 100px;
+        height: 70px;
+    }
+
+    :hover {
+        filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+    .react:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+}
+  
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.outlet {
+    // background-color: red;
+    // height: 65vh;
+    color: black;
+}
