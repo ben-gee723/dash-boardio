@@ -5,11 +5,13 @@
     height: 200px;
     // height: 15vw;
 
-    background-color: rgba($color: white, $alpha: .1);
+    background-color: rgba($color: white, $alpha: .5);
     backdrop-filter: blur(5px);
-    box-shadow: 0 0 5px white;
+    // box-shadow: 0 0 5px white;
+    box-shadow: 5px 5px 10px grey;
     border-top: 1px solid #ffffff40;
     border-left: 1px solid #ffffff33;
+    border-radius: 5px;
 
     .img-container {
         width: 130px;

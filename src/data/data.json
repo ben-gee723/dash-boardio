@@ -37,7 +37,7 @@
             "img": "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
         },
         {
-            "name": "Miroboard",
+            "name": "Miroboard -CM",
             "technology": "Miro",
             "use": "Organisation",
             "link": "https://miro.com/app/board/uXjVPdvERyo=/?userEmail=ben.goldschmidt@digitalcareerinstitute.org&track=true&utm_source=notification&utm_medium=email&utm_campaign=add-to-team-and-board&utm_content=boardName",
@@ -68,7 +68,7 @@
             "name": "Sheets-Course Planning",
             "technology": "Google",
             "use": "planning",
-            "link": "https://docs.google.com/spreadsheets/d/1OqhQXzCdwC8ZLZZijRoqCRzlDGFgdUC7ixnKqCedRZU/edit#gid=1151574425",
+            "link": "https://docs.google.com/spreadsheets/d/16Ju8SUn5BfACV9zzUeXQB6lV44QxP3MwaTRJ11BBmNM/edit#gid=695013696",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
@@ -76,6 +76,13 @@
             "technology": "Google",
             "use": "planning",
             "link": "https://docs.google.com/spreadsheets/d/1a8r2-x0uYxCYTDkcf_HlvgjFZW6Ou83VQ4t0F7p6bqo/edit#gid=0",
+            "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
+        },
+        {
+            "name": "Sheets - DCI Teachers",
+            "technology": "Google",
+            "use": "planning",
+            "link": "https://docs.google.com/spreadsheets/d/1eTLmk-Nk2MtEY4wqMPjuoytwfeS4C-xiMW5TwVbg5bg/edit#gid=916158341",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
@@ -114,11 +121,32 @@
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
-            "name": "Hubspot",
+            "name": "Hubspot - Salesforce",
             "technology": "Hubspot",
             "type": "organisation",
             "link": "https://app.hubspot.com/login/?loginRedirectUrl=https%3A%2F%2Fapp.hubspot.com%2Freports-dashboard%2F6961992%2Fview%2F8569888&authFailureReason=401%20Unauthorized&loginPortalId=6961992",
             "img": "https://legal.hubspot.com/hubfs/guidelines_the-sprocket.svg"
+        },
+        {
+            "name": "Personio",
+            "technology": "",
+            "type": "organisation",
+            "link": "https://dci.personio.de/login/index",
+            "img": "https://2fasvg.github.io/assets/img/logo/personio.com/personio.com.svg"
+        },
+        {
+            "name": "Gmail - DCI",
+            "technology": "Gmail",
+            "type": "organisation",
+            "link": "https://mail.google.com/mail/u/1/#inbox",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png"
+        },
+        {
+            "name": "Google Calendar",
+            "technology": "Google Calendar",
+            "type": "organisation",
+            "link": "https://calendar.google.com/calendar/u/1/r/week/2023/4/12",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/2048px-Google_Calendar_icon_%282020%29.svg.png"
         }
     ]
 }

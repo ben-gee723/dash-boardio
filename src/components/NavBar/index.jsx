@@ -5,9 +5,19 @@ import { NavLink } from "react-router-dom"
 export default function NavBar () {
     return (
         <nav className="nav-bar">
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+            <div className="main-container containers">
+                <NavLink to='/main' className="button">
+                    Main
+                </NavLink>
+            </div>
+            <div className="containers">
+                <NavLink to='/' className="all-apps button">
+                    All
+                </NavLink>
+            </div>
+            <div className="cat-container containers">
+                Categories(?)
+            </div>
         </nav>  
     )
 }
