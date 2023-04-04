@@ -8,7 +8,7 @@
  - Styling: SCSS
 
 Other:
- - 
+ - Icons: Fontawesome
 
 ## Potential Ideas
  - Severless with .json (to begin with)

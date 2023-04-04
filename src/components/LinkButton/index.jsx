@@ -1,3 +1,5 @@
+import qMark from '../../assets/'
+
 export default function LinkButton () {
     const linkInfo = {
         name: "Google Drive",
@@ -7,7 +9,8 @@ export default function LinkButton () {
     const { name, img, link } = linkInfo;
     return(
         <div className="link-button" href={link}>
-            {img ? <img src={img} alt={name}></img> : name }
+            <img src={img ? img : qMark} alt={name}></img>
+            <h3>{name}</h3>
         </div>
     )
 }
