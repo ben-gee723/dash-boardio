@@ -1,4 +1,17 @@
 .home {
     
-    
+    position: relative;
+
+    input[name="search"]{
+        width: 200px;
+        height: 25px;
+        padding: .5rem;
+
+        position: absolute;
+        top: 40px;
+        right: 50px;
+
+        border: none;
+        border-radius: 10px;
+    }
 }
