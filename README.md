@@ -1,2 +1,15 @@
 # my-dashboard
- - Just a simple dsahboard created to organise important links and information for my work
+ - Just a simple dashboard created to organise important links and information for my work
+
+## Technologies
+ - Language: JavaScript
+ - Bundler: Vite
+ - Library: React
+ - Styling: SCSS
+
+Other:
+ - 
+
+## Potential Ideas
+ - Severless with .json (to begin with)
+ - APIs --> Python, fastAPI with SQL (later)
