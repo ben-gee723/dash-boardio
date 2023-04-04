@@ -14,7 +14,7 @@ export default function LinksPage (){
     const onChange = (e) => setSearch(e.target.value)
     
     useEffect(()=>{
-        let newLinks = data.links.filter(a => a.name.toLowerCase().includes(search.toLowerCase()))
+        let newLinks = data.links.filter(a => `${a.name} ${a.technology} ${a.group} ${a.category}`.includes(search.toLowerCase()))
         setAllLinks(newLinks)
     }, [search])
     
