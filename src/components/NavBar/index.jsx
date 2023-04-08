@@ -18,7 +18,7 @@ export default function NavBar () {
     return (
         <nav className="nav-bar">
             <div className="main-container containers">
-                {data.mainLinks.map(link => {
+                {data.navlinks.map(link => {
                     return <NavLink key={link.name} to={`${link.path}`} className={link.icon ? "button": "all-apps button"}>
                         {
                         link.icon

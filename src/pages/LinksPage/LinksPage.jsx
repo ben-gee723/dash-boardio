@@ -5,7 +5,7 @@ import data from '../../data/data.json';
 import LinkButtons from "../../components/LinkButtons";
 
 export default function LinksPage (){
-    const { mainLinks } = data;
+    const { navlinks } = data;
     const { name } = useParams()
 
     const [search, setSearch] = useState("");
@@ -14,12 +14,12 @@ export default function LinksPage (){
     const onChange = (e) => setSearch(e.target.value)
     
     useEffect(()=>{
-        let newLinks = data.links.filter(a => `${a.name} ${a.technology} ${a.group} ${a.category}`.toLowerCase().includes(search.toLowerCase()))
+        let newLinks = data.links.filter(a => `${a.name} ${a.technology} ${a.category} ${a.keywords}`.toLowerCase().includes(search.toLowerCase()))
         setAllLinks(newLinks)
     }, [search])
     
-    let title = name ? mainLinks.filter(a => a.path == name)[0].name: null;
-    let filteredLinks = name ? allLinks.filter(a => a.group === name): null;
+    let title = name ? navlinks.filter(a => a.path == name)[0].name: null;
+    let filteredLinks = name ? allLinks.filter(a => a.category === name): null;
 
     return(
         <div className="page">

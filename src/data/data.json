@@ -1,377 +1,377 @@
 {
-    "mainLinks": [
+    "": "",
+    "navlinks": [
         { "name": "DCI", "path": "dci"},
         { "name": "My Team", "path": "my-team", "icon":"team"},
         { "name": "My Links", "path": "my-links", "icon":"user"},
         { "name": "My Classes", "path": "classes", "icon":"class"}
     ],
-    "categories": [],
     "links": [
         {
             "name": "Google Drive",
             "technology": "Google Drive",
-            "group":"",
-            "category": "organisation",
+            "category":"",
+            "keywords": "organisation",
             "link": "https://drive.google.com/drive/u/1/",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1147px-Google_Drive_icon_%282020%29.svg.png"
         },
         {
             "name": "Google Drive - Shard Drives",
             "technology": "Google Drive",
-            "group":"my-links",
-            "category": "organisation",
+            "category":"my-links",
+            "keywords": "organisation",
             "link": "https://drive.google.com/drive/u/1/",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1147px-Google_Drive_icon_%282020%29.svg.png"
         },
         {
             "name": "Leapsome Meetings",
             "technology": "Leapsome",
-            "group":"my-links",
-            "category": "communication",
+            "category":"my-links",
+            "keywords": "communication",
             "link": "https://www.leapsome.com/app/#/profile/619e3c48a206d3171b883ca0",
             "img": "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/03e80a90-876f-4b0a-92d5-8d11924a9a78.png?auto=format&q=50&w=80&h=80&fit=max&dpr=3"
         },
         {
             "name": "Confluence - CM Info",
             "technology": "Confluence",
-            "group":"dci",
-            "category": "information",
+            "category":"dci",
+            "keywords": "information",
             "link": "https://digitalcareerinstitute.atlassian.net/wiki/spaces/CM/overview?homepageId=26477031",
             "img": "https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png"
         },
         {
             "name": "Jira - Tickets",
             "technology": "Jira",
-            "group":"my-links",
-            "category": "organisation",
+            "category":"my-links",
+            "keywords": "organisation",
             "link": "https://digitalcareerinstitute.atlassian.net/jira/your-work",
             "img": "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
         },
         {
             "name": "Jira - Student Portal",
             "technology": "Jira",
-            "group":"my-links",
-            "category": "organisation",
+            "category":"my-links",
+            "keywords": "organisation",
             "link": "https://digitalcareerinstitute.atlassian.net/jira/servicedesk/projects/STP/issues",
             "img": "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
         },
         {
             "name": "Jira - Projects",
             "technology": "Jira",
-            "group":"my-links",
-            "category": "organisation",
+            "category":"my-links",
+            "keywords": "organisation",
             "link": "https://digitalcareerinstitute.atlassian.net/jira/projects",
             "img": "https://logowik.com/content/uploads/images/jira2966.logowik.com.webp"
         },
         {
             "name": "Miroboard - CM",
             "technology": "Miro",
-            "group":"my-links",
-            "category": "ideas",
-            "link": "https://miro.com/app/board/uXjVPdvERyo=/?categoryrEmail=ben.goldschmidt@digitalcareerinstitute.org&track=true&utm_source=notification&utm_medium=email&utm_campaign=add-to-team-and-board&utm_content=boardName",
+            "category":"my-links",
+            "keywords": "ideas",
+            "link": "https://miro.com/app/board/uXjVPdvERyo=/?keywordsrEmail=ben.goldschmidt@digitalcareerinstitute.org&track=true&utm_source=notification&utm_medium=email&utm_campaign=add-to-team-and-board&utm_content=boardName",
             "img": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/hnkpvrihomgkmr5yi09o"
         },
         {
             "name": "Sheets - Course Plan",
             "technology": "Google Sheets",
-            "group":"dci",
-            "category": "planning",
+            "category":"dci",
+            "keywords": "planning",
             "link": "https://docs.google.com/spreadsheets/d/1vV3Tfp4Ssp5cxvQrxTyX_gsfTZh_y1SBbf98iBNTUI0/edit#gid=714766798",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - Softskills",
             "technology": "Google Sheets",
-            "group":"dci",
-            "category": "planning einsatzplanung",
+            "category":"dci",
+            "keywords": "planning einsatzplanung",
             "link": "https://docs.google.com/spreadsheets/d/1hjGmkQty1wLex9q0VQsW_aYuBvPl7qzQgFl7dVFnmUQ/edit#gid=1402061940",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - Zoom Accounts",
             "technology": "Google Sheets",
-            "group":"dci",
-            "category": "planning",
+            "category":"dci",
+            "keywords": "planning",
             "link": "https://docs.google.com/spreadsheets/d/1OqhQXzCdwC8ZLZZijRoqCRzlDGFgdUC7ixnKqCedRZU/edit#gid=1151574425",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - Crse Planning",
             "technology": "Google Sheets",
-            "group":"dci",
-            "category": "course planning remote mentor tutor",
+            "category":"dci",
+            "keywords": "course planning remote mentor tutor",
             "link": "https://docs.google.com/spreadsheets/d/16Ju8SUn5BfACV9zzUeXQB6lV44QxP3MwaTRJ11BBmNM/edit#gid=695013696",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - FbW Guidelines",
             "technology": "Google Sheets",
-            "group":"dci",
-            "category": "information",
+            "category":"dci",
+            "keywords": "information",
             "link": "https://docs.google.com/spreadsheets/d/1a8r2-x0uYxCYTDkcf_HlvgjFZW6Ou83VQ4t0F7p6bqo/edit#gid=0",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - DCI Teachers",
             "technology": "Google Sheets",
-            "group":"",
-            "category": "information",
+            "category":"",
+            "keywords": "information",
             "link": "https://docs.google.com/spreadsheets/d/1eTLmk-Nk2MtEY4wqMPjuoytwfeS4C-xiMW5TwVbg5bg/edit#gid=916158341",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Slides - CM Onboarding",
             "technology": "Google Slides",
-            "group":"",
-            "category": "onboarding",
+            "category":"",
+            "keywords": "onboarding",
             "link": "https://docs.google.com/spreadsheets/d/1a8r2-x0uYxCYTDkcf_HlvgjFZW6Ou83VQ4t0F7p6bqo/edit#gid=0",
             "img": "https://www.freepnglogos.com/uploads/google-slides-logo-png/google-slides-png-google-slides-png-transparent-9.png"
         },
         {
             "name": "Atlassian Apps",
             "technology": "Atlassian",
-            "group":"",
-            "category": "organisation",
+            "category":"",
+            "keywords": "organisation",
             "link": "https://start.atlassian.com/",
             "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/30_Atlassian_logo_logos-512.png"
         },
         {
             "name": "Slack - DCI",
             "technology": "Slack",
-            "group":"my-links",
-            "category": "communication",
+            "category":"my-links",
+            "keywords": "communication",
             "link": "https://app.slack.com/client/TDECAUCKF/CDE1J0JUC",
             "img": "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png"
         },
         {
             "name": "Slack - DCI Students",
             "technology": "Slack",
-            "group":"my-links",
-            "category": "communication",
+            "category":"my-links",
+            "keywords": "communication",
             "link": "https://app.slack.com/client/T7HTC0C6B/C7HMEPPSS",
             "img": "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png"
         },
         {
             "name": "!Figma - CM Overview",
             "technology": "Figma",
-            "group":"my-links",
-            "category": "planning diagrams",
+            "category":"my-links",
+            "keywords": "planning diagrams",
             "link": "https://www.figma.com/file/AVfOA0nKGPEWMdekDofyPO/Links---Class-Management?node-id=0-1&t=DlUtlt7IE28CX4IW-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "!Figma - All Sheets",
             "technology": "Figma",
-            "group":"my-links",
-            "category": "planning diagrams sheets contents all",
+            "category":"my-links",
+            "keywords": "planning diagrams sheets contents all",
             "link": "https://www.figma.com/file/PHsw9t3VvQNPHmVGwSx2kg/DCI---Google-Sheets-Contents?node-id=0-1&t=YUmPAQsMAtLy74Wl-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "Hubspot - Salesforce",
             "technology": "Hubspot",
-            "group":"my-links",
-            "category": "student portals information",
+            "category":"my-links",
+            "keywords": "student portals information",
             "link": "https://app.hubspot.com/login/?loginRedirectUrl=https%3A%2F%2Fapp.hubspot.com%2Freports-dashboard%2F6961992%2Fview%2F8569888&authFailureReason=401%20Unauthorized&loginPortalId=6961992",
             "img": "https://legal.hubspot.com/hubfs/guidelines_the-sprocket.svg"
         },
         {
             "name": "Personio",
             "technology": "Personio",
-            "group":"",
-            "category": "student portals information",
+            "category":"",
+            "keywords": "student portals information",
             "link": "https://dci.personio.de/login/index",
             "img": "https://2fasvg.github.io/assets/img/logo/personio.com/personio.com.svg"
         },
         {
             "name": "Gmail - DCI",
             "technology": "Gmail",
-            "group":"my-links",
-            "category": "communication organisation",
+            "category":"my-links",
+            "keywords": "communication organisation",
             "link": "https://mail.google.com/mail/u/1/#inbox",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png"
         },
         {
             "name": "Google Calendar",
             "technology": "Google Calendar",
-            "group":"my-links",
-            "category": "organisation",
+            "category":"my-links",
+            "keywords": "organisation",
             "link": "https://calendar.google.com/calendar/u/1/r/week/2023/4/12",
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/2048px-Google_Calendar_icon_%282020%29.svg.png"
         },
         {
             "name": "Podio - Attendance",
             "technology": "Podio",
-            "group":"",
-            "category": "information student portal",
+            "category":"",
+            "keywords": "information student portal",
             "link": "https://podio.com/digitalcareerinstituteorg/dci-student-management",
             "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8OxtCPiO08Z2XJwUlXIaMVSzX_mTfLzri7Q&usqp=CAU"
         },
         {
             "name": "Sheets - FbW OM 22-E04 B",
             "technology": "Google Sheets",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "https://docs.google.com/spreadsheets/d/1L9e4exeb0uymaMTqGAXRTrlLSCUwNoF8/edit#gid=1465173481",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - FbW OM 23-D01",
             "technology": "Google Sheets",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - FbW OM 23-E01",
             "technology": "Google Sheets",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - FbW OM 23-E02",
             "technology": "Google Sheets",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Figma - FbW OM 22-E04 B",
             "technology": "Figma",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "https://www.figma.com/file/vXbFsS5Rx1da6okDP3Jmwl/OM-22-E04-B---Process?node-id=0-1&t=cfAa4KL9poFsPRVe-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "Figma - FbW OM 23-D01",
             "technology": "Figma",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "Figma - FbW OM 23-E01",
             "technology": "Figma",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "Figma - FbW OM 23-E02",
             "technology": "Figma",
-            "group":"classes",
-            "category": "organisation",
+            "category":"classes",
+            "keywords": "organisation",
             "link": "",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "Sheets - OM Curriculum",
             "technology": "Google Sheets",
-            "group":"",
-            "category": "planning",
+            "category":"",
+            "keywords": "planning",
             "link": "https://docs.google.com/spreadsheets/d/1_JQr0XAB8lwurzUudevVpGd1X0X4pfKKZHVIsAwBneM/edit#gid=1041288258",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - All Module Plans",
             "technology": "Google Sheets",
-            "group":"",
-            "category": "planning",
+            "category":"",
+            "keywords": "planning",
             "link": "https://docs.google.com/spreadsheets/d/1NIMC9GuVy2f3mmCh6VmWieGtV4yMQ44X0F1GxWnn4LQ/edit#gid=1683746242",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Sheets - BG Einarbeitung",
             "technology": "Google Sheets",
-            "group":"",
-            "category": "onboarding",
+            "category":"",
+            "keywords": "onboarding",
             "link": "https://docs.google.com/spreadsheets/d/1KcaKbf-LF1wmKrGf2YYAj8jf0PfdmPS5Mxyw1wLqERM/edit#gid=1115838130",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Slides - OB FreeL Ts",
             "technology": "Google Slides",
-            "group":"",
-            "category": "onboarding freelance teachers",
+            "category":"",
+            "keywords": "onboarding freelance teachers",
             "link": "https://docs.google.com/presentation/d/1TXWMOFPCnOkj6Q1cr0HTp92wVxzK0PJpYGTpe5yg0tE/edit#slide=id.g1232de1b78e_0_30",
             "img": "https://www.freepnglogos.com/uploads/google-slides-logo-png/google-slides-png-google-slides-png-transparent-9.png"
         },
         {
             "name": "Slides - OB CM for CMs",
             "technology": "Google Slides",
-            "group":"",
-            "category": "onboarding class management",
+            "category":"",
+            "keywords": "onboarding class management",
             "link": "https://docs.google.com/presentation/d/1hRkCyF-cDdLfF-GPJAdvzjazQ7oCp_k7Y4p14C-m7_I/edit#slide=id.g100b37a79bc_0_0",
             "img": "https://www.freepnglogos.com/uploads/google-slides-logo-png/google-slides-png-google-slides-png-transparent-9.png"
         },
         {
             "name": "Slides - Intro FP DE",
             "technology": "Google Slides",
-            "group":"",
-            "category": "onboarding introduction fellow program deutsch",
+            "category":"",
+            "keywords": "onboarding introduction fellow program deutsch",
             "link": "https://docs.google.com/presentation/d/1O6j4pVImqhqS8HywZnZKywM2CU_-AbcDPySWLa5rvB0/edit#slide=id.p",
             "img": "https://www.freepnglogos.com/uploads/google-slides-logo-png/google-slides-png-google-slides-png-transparent-9.png"
         },
         {
             "name": "Slides - Intro FP StakeHs ",
             "technology": "Google Slides",
-            "group":"",
-            "category": "onboarding introduction fellow programm stakeholders",
+            "category":"",
+            "keywords": "onboarding introduction fellow programm stakeholders",
             "link": "https://docs.google.com/presentation/d/1bDAK_63-gSCXUNGvAEhCdJgqGMNT0ucrSNiLZHhsuZg/edit#slide=id.p",
             "img": "https://www.freepnglogos.com/uploads/google-slides-logo-png/google-slides-png-google-slides-png-transparent-9.png"
         },
         {
             "name": "Confluence - Jira Ticket Info",
             "technology": "Confluence",
-            "group":"dci",
-            "category": "information workflow student portal",
+            "category":"dci",
+            "keywords": "information workflow student portal",
             "link": "https://digitalcareerinstitute.atlassian.net/wiki/spaces/STP/pages/53248141/Ticket+workflow",
             "img": "https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png"
         },
         {
             "name": "Confluence - Jira Task Info",
             "technology": "Confluence",
-            "group":"dci",
-            "category": "information student portal First Assignee Automations Sub-Tasks",
+            "category":"dci",
+            "keywords": "information student portal First Assignee Automations Sub-Tasks",
             "link": "https://digitalcareerinstitute.atlassian.net/wiki/spaces/STP/pages/52789319/First+Assignee+Automations+and+Sub-Tasks",
             "img": "https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png"
         },
         {
             "name": "Docs - CM JF Agenda",
             "technology": "Google Docs",
-            "group":"my-links",
-            "category": "information class management meeting",
+            "category":"my-links",
+            "keywords": "information class management meeting",
             "link": "https://docs.google.com/document/d/1Rsz6xKFzZLMjSpY5Wyt9dkBRXgvwloX9ghaDyX8Mets/edit",
             "img": "https://static.vecteezy.com/system/resources/previews/017/395/386/original/google-document-icon-free-png.png"
         },
         {
             "name": "Docs - OM22 E04B Wiki",
             "technology": "Google Docs",
-            "group":"classes",
-            "category": "",
+            "category":"classes",
+            "keywords": "",
             "link": "FbW OM22 E04B meeting class wiki",
             "img": "https://static.vecteezy.com/system/resources/previews/017/395/386/original/google-document-icon-free-png.png"
         },
         {
             "name": "Docs - OM22 E04B Checkin",
             "technology": "Google Docs",
-            "group":"classes",
-            "category": "FbW OM22 E04B check in meeting",
+            "category":"classes",
+            "keywords": "FbW OM22 E04B check in meeting",
             "link": "https://docs.google.com/document/d/1AzVMNuI5MPIFMZnXz9rLYK-0wqqPym9ftGQE-HDWSes/edit",
             "img": "https://static.vecteezy.com/system/resources/previews/017/395/386/original/google-document-icon-free-png.png"
         },
         {
             "name": "Docs - OM22 E04B Reps",
             "technology": "Google Docs",
-            "group":"classes",
-            "category": "FbW OM22 E04 B class representative meeting",
+            "category":"classes",
+            "keywords": "FbW OM22 E04 B class representative meeting",
             "link": "https://docs.google.com/document/d/1yDw9Sf1e2FJqJt4i5ar4bO6QwiO0oNf59i7qfPU3dI8/edit",
             "img": "https://static.vecteezy.com/system/resources/previews/017/395/386/original/google-document-icon-free-png.png"
         }
