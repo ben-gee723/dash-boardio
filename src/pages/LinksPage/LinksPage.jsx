@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { useParams } from "react-router-dom";
 import data from '../../data/data.json';
+import Store from '../../store/app-context';
 
 import LinkButtons from "../../components/LinkButtons";
 import SearchBar from '../../components/SearchBar';
 
 export default function LinksPage (){
+    const { width } = Store()
     const { navlinks, links } = data;
     const { name } = useParams()
 
@@ -16,7 +18,7 @@ export default function LinksPage (){
 
     return(
         <div className="page">
-            <h1> {title ? title: "All App Links"} </h1>
+            <h1 className={width > 767 ? "": "small-h1"}> {title ? title: "All App Links"} </h1>
             <SearchBar links={links} setAllLinks={setAllLinks}  />
             <div className="apps-container">
                 <LinkButtons links={filteredLinks !== null ? filteredLinks : allLinks}/>

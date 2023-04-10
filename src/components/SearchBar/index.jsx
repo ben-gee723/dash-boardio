@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+import Store from '../../store/app-context.jsx'
 
 export default function SearchBar ({links, setAllLinks}){
+    const { width } = Store()
     const [search, setSearch] = useState("");
 
     const onChange = (e) => setSearch(e.target.value)
@@ -10,6 +12,6 @@ export default function SearchBar ({links, setAllLinks}){
         setAllLinks(newLinks)
     }, [search])
     
-    return <input onChange={onChange} type="text" name="search" id="search" placeholder=' Search for something...' />
+    return <input className={width > 767 ? "top-right": ""} onChange={onChange} type="text" name="search" id="search" placeholder=' Search for something...' />
 
 }

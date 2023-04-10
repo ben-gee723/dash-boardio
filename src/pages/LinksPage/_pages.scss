@@ -9,17 +9,22 @@
         // color: rgba($color: white, $alpha: .8);
     }
 
+    .small-h1 {
+        font-size: xxx-large;
+    }
+
     input[name="search"]{
         width: 200px;
         height: 25px;
         padding: .5rem;
+        border: none;
+        border-radius: 10px;
+    }
 
+    .top-right {
         position: absolute;
         top: 40px;
         right: 50px;
-
-        border: none;
-        border-radius: 10px;
     }
 
     .apps-container {
