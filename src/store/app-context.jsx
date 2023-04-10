@@ -1,11 +1,24 @@
-// Do I need context/custom context?
+import { createContext, useState, useEffect, useContext } from "react";
 
-import useMyContext from "@ben-gee723/use-context-hook";
+const InitialContext = createContext();
 
-const [AppContext, appStore] = useMyContext({
-    name: "app",
-    init: { search: "" },
-    functions: {},
-})
+export function AppContext ({children}) {
+    const [width, setWidth] = useState(window.innerWidth)
 
-export {AppContext, appStore};
+    useEffect(()=> {
+        const updateWidth = () => {
+            setWidth(window.innerWidth)
+          }
+          window.addEventListener('resize', updateWidth);
+          
+          return(() => {
+              window.removeEventListener('resize', updateWidth);
+          })
+    },[width])
+
+    const value = {width};
+    return <InitialContext.Provider value={value}>{children}</InitialContext.Provider>
+}
+
+const Store = () => useContext(InitialContext);
+export default Store;

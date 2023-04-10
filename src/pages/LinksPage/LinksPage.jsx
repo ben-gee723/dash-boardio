@@ -6,6 +6,7 @@ import LinkButtons from "../../components/LinkButtons";
 import SearchBar from '../../components/SearchBar';
 
 export default function LinksPage (){
+    const { navlinks, links } = data;
     const { name } = useParams()
 
     const [allLinks, setAllLinks] = useState(data.links)    
@@ -16,7 +17,7 @@ export default function LinksPage (){
     return(
         <div className="page">
             <h1> {title ? title: "All App Links"} </h1>
-            <SearchBar setAllLinks={setAllLinks} />
+            <SearchBar links={links} setAllLinks={setAllLinks}  />
             <div className="apps-container">
                 <LinkButtons links={filteredLinks !== null ? filteredLinks : allLinks}/>
             </div>
