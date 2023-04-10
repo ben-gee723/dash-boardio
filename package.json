@@ -1,5 +1,5 @@
 {
-  "name": "@ben-gee723/react-website-template",
+  "name": "@ben-gee723/dash-boardio",
   "author": "ben-gee723",
   "private": false,
   "version": "0.0.3",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ben-gee723/react-website-template.git"
+    "url": "git+https://github.com/ben-gee723/dash-boardio.git"
   },
   "dependencies": {
     "@ben-gee723/use-context-hook": "^1.1.6",
