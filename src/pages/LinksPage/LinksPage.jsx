@@ -18,8 +18,10 @@ export default function LinksPage (){
 
     return(
         <div className="page">
-            <h1 className={width > 767 ? "": "small-h1"}> {title ? title: "All App Links"} </h1>
-            <SearchBar links={links} setAllLinks={setAllLinks}  />
+            <div className="title" style={width > 767 ? {}: {display: "block"}}>
+                <h1 className={width > 767 ? "": "small-h1"}> {title ? title: "All App Links"} </h1>
+                <SearchBar links={links} setAllLinks={setAllLinks}  />
+            </div>
             <div className="apps-container">
                 <LinkButtons links={filteredLinks !== null ? filteredLinks : allLinks}/>
             </div>
