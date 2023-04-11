@@ -1,7 +1,6 @@
 import MyTeamsImage from '../../assets/DCI CM - My Team - Ben G.png'
 import Store from '../../store/app-context'
 
-
 export default function MyTeams() {
     const { width } = Store()
     return(
