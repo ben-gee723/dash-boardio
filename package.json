@@ -4,11 +4,8 @@
   "private": false,
   "version": "0.0.3",
   "license": "ISC",
-  "descritpion": "Vite-React template for general websites",
+  "descritpion": "dash-boadio",
   "main": "main.jsx",
-  "bin": {
-    "create-my-template": "./bin/cli.js"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
