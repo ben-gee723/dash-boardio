@@ -1,3 +1,4 @@
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 const icons = {
   user: solid("user"),
   class: solid("chalkboard-user"),
