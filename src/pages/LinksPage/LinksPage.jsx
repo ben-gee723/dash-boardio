@@ -14,7 +14,7 @@ export default function LinksPage (){
     const [allLinks, setAllLinks] = useState(data.links)    
     
     let title = name ? navlinks.filter(a => a.path == name)[0].name: null;
-    let filteredLinks = name ? allLinks.filter(a => a.category === name): null;
+    let filteredLinks = name ? allLinks.filter(a => a.category.includes(name.toLowerCase())): null;
 
     return(
         <div className="page">

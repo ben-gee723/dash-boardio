@@ -4,7 +4,8 @@
         { "name": "DCI", "path": "dci"},
         { "name": "My Team", "path": "my-team", "icon":"team"},
         { "name": "My Links", "path": "my-links", "icon":"user"},
-        { "name": "My Classes", "path": "classes", "icon":"class"}
+        { "name": "My Classes", "path": "classes", "icon":"class"},
+        { "name": "Figma", "path": "figma", "icon":"star"}
     ],
     "links": [
         {
@@ -154,15 +155,15 @@
         {
             "name": "!Figma - CM Overview",
             "technology": "Figma",
-            "category":"my-links",
+            "category":"my-links figma",
             "keywords": "planning diagrams",
             "link": "https://www.figma.com/file/AVfOA0nKGPEWMdekDofyPO/Links---Class-Management?node-id=0-1&t=DlUtlt7IE28CX4IW-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {
             "name": "!Figma - All Sheets",
-            "technology": "Figma",
-            "category":"my-links",
+            "technology": "Figma figma",
+            "category":"my-links figma",
             "keywords": "planning diagrams sheets contents all",
             "link": "https://www.figma.com/file/PHsw9t3VvQNPHmVGwSx2kg/DCI---Google-Sheets-Contents?node-id=0-1&t=YUmPAQsMAtLy74Wl-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
@@ -220,7 +221,7 @@
             "technology": "Google Sheets",
             "category":"classes",
             "keywords": "organisation",
-            "link": "",
+            "link": "https://docs.google.com/spreadsheets/d/1A1Tvmyk1fQwYPitUSG8idGQTzi-jC8fKi_sc_PV7H34/edit#gid=0",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
@@ -228,7 +229,7 @@
             "technology": "Google Sheets",
             "category":"classes",
             "keywords": "organisation",
-            "link": "",
+            "link": "https://docs.google.com/spreadsheets/d/1Lto8kCOJ-fZy5IVis9aMIaXg6NaLT-PFwFX5JcHgD8s/edit#gid=0",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
@@ -236,13 +237,13 @@
             "technology": "Google Sheets",
             "category":"classes",
             "keywords": "organisation",
-            "link": "",
+            "link": "https://docs.google.com/spreadsheets/d/1ToGKbbpmlP4yldR9fX8Y0XonO3k0fqr1lB3kRGPQuTg/edit#gid=0",
             "img": "https://cktechcheck.com/wp-content/uploads/2020/08/google-sheets-logo-SVG.svg"
         },
         {
             "name": "Figma - FbW OM 22-E04 B",
             "technology": "Figma",
-            "category":"classes",
+            "category":"classes figma",
             "keywords": "organisation",
             "link": "https://www.figma.com/file/vXbFsS5Rx1da6okDP3Jmwl/OM-22-E04-B---Process?node-id=0-1&t=cfAa4KL9poFsPRVe-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
@@ -250,7 +251,7 @@
         {
             "name": "Figma - FbW OM 23-D01",
             "technology": "Figma",
-            "category":"classes",
+            "category":"classes figma",
             "keywords": "organisation",
             "link": "",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
@@ -258,7 +259,7 @@
         {
             "name": "Figma - FbW OM 23-E01",
             "technology": "Figma",
-            "category":"classes",
+            "category":"classes figma",
             "keywords": "organisation",
             "link": "https://www.figma.com/file/j1i3hTBnYLQzsaDe4VfgX8/OM-23-E01---Process?node-id=0-1&t=ZWljHfM2zXNnIxws-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
@@ -266,9 +267,17 @@
         {
             "name": "Figma - FbW OM 23-E02",
             "technology": "Figma",
-            "category":"classes",
+            "category":"classes figma",
             "keywords": "organisation",
             "link": "",
+            "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
+        },
+        {
+            "name": "Figma - FbW OM 23-E03",
+            "technology": "Figma",
+            "category":"classes figma",
+            "keywords": "organisation",
+            "link": "https://www.figma.com/file/jA3BRJw1FqVm5wcN1xvpqK/OM-23-E03---Process?node-id=0-1&t=Xooi1MHrYwppZt4q-0",
             "img": "https://s3-alpha.figma.com/hub/file/2815952264/7a5ebfb0-0508-48ab-be9a-31b36ba53f97-cover.png"
         },
         {

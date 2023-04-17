@@ -1,18 +1,13 @@
 import { lazy } from "react"
 import { NavLink } from "react-router-dom"
 import data from '../../data/data.json'
+import icons from '../../data/icons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 // spaced between
 // main <---> Home <---> categories
-
-const icons = {
-    user: solid("user"), 
-    class: solid("chalkboard-user"), 
-    team: solid("people-group"), 
-}
 
 export default function NavBar () {
     return (
